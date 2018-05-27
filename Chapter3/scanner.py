@@ -1,8 +1,31 @@
-import socket, os, struct
+import socket
+import os
+import struct
+import threading
+
+from netaddr import IPNetwork, IPAddress
 from ctypes import *
 
-#host to listen on
-host = "192.168.182.1"
+# host to listen on
+#host = "192.168.182.1"
+host = "192.168.0.100"
+
+# subnet to target
+subnet = "192.168.0.0/24"
+
+# magic we'll check ICMP responses for
+magic_message = "PYTHONRULES!"
+
+
+def udp_sender(subnet, magic_message):
+    sender = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+
+    for ip in IPNetwork(subnet):
+        try:
+            sender.sendto(magic_message, ("%s" % ip, 65212))
+        except:
+            pass
+
 
 class IP(Structure):
     _fields_ = [
@@ -30,11 +53,14 @@ class IP(Structure):
         # human readable IP addresses
         self.src_address = socket.inet_ntoa(struct.pack("<L", self.src))
         self.dst_address = socket.inet_ntoa(struct.pack("<L", self.dst))
+
         # human readable protocol
         try:
             self.protocol = self.protocol_map[self.protocol_num]
         except:
             self.protocol = str(self.protocol_num)
+
+
 class ICMP(Structure):
     _fields_ = [
         ("type", c_ubyte),
@@ -50,45 +76,65 @@ class ICMP(Structure):
     def __init__(self, socket_buffer):
         pass
 
-# this should look familiar from the previous example
+
+# create a raw socket and bind it to the public interface
 if os.name == "nt":
     socket_protocol = socket.IPPROTO_IP
 else:
     socket_protocol = socket.IPPROTO_ICMP
 
 sniffer = socket.socket(socket.AF_INET, socket.SOCK_RAW, socket_protocol)
+
 sniffer.bind((host, 0))
+
+# we want the IP headers included in the capture
 sniffer.setsockopt(socket.IPPROTO_IP, socket.IP_HDRINCL, 1)
 
+# if we're on Windows we need to send some ioctls
+# to setup promiscuous mode
 if os.name == "nt":
     sniffer.ioctl(socket.SIO_RCVALL, socket.RCVALL_ON)
+
+# start sending packets
+t = threading.Thread(target=udp_sender, args=(subnet, magic_message))
+t.start()
 
 try:
     while True:
 
-        #read in packet
+        # read in a single packet
         raw_buffer = sniffer.recvfrom(65565)[0]
 
-        #create ip Header from first 20 bytes on buffer
+        # create an IP header from the first 20 bytes of the buffer
         ip_header = IP(raw_buffer[0:20])
 
-        #print the protocol that was detected and hosts
-        print "Protocol: %s %s -> %s" % (ip_header.protocol, ip_header.src_address, ip_header.dst_address)
+        # print "Protocol: %s %s -> %s" % (ip_header.protocol, ip_header.src_address, ip_header.dst_address)
 
-        #Check for ICMP
+        # if it's ICMP we want it
         if ip_header.protocol == "ICMP":
-            #Find where packets start
+
+            # calculate where our ICMP packet starts
             offset = ip_header.ihl * 4
-
-
             buf = raw_buffer[offset:offset + sizeof(ICMP)]
 
-            #Create ICMP structure
+            # create our ICMP structure
             icmp_header = ICMP(buf)
 
-            print "ICMP -> Type: %d Code: %d" % (icmp_header.type, icmp_header.code)
+            # print "ICMP -> Type: %d Code: %d" % (icmp_header.type, icmp_header.code)
+
+            # now check for the TYPE 3 and CODE 3 which indicates
+            # a host is up but no port available to talk to
+            if icmp_header.code == 3 and icmp_header.type == 3:
+
+                # check to make sure we are receiving the response
+                # that lands in our subnet
+                if IPAddress(ip_header.src_address) in IPNetwork(subnet):
+
+                    # test for our magic message
+                    if raw_buffer[len(raw_buffer) - len(magic_message):] == magic_message:
+                        print "Host Up: %s" % ip_header.src_address
 # handle CTRL-C
 except KeyboardInterrupt:
-    # if we're using Windows, turn off promiscuous mode
+    # if we're on Windows turn off promiscuous mode
     if os.name == "nt":
         sniffer.ioctl(socket.SIO_RCVALL, socket.RCVALL_OFF)
