@@ -123,7 +123,7 @@ try:
             # create our ICMP structure
             icmp_header = ICMP(buf)
 
-            # print "ICMP -> Type: %d Code: %d" % (icmp_header.type, icmp_header.code)
+            print "ICMP -> Type: %d Code: %d" % (icmp_header.type, icmp_header.code)
 
             # now check for the TYPE 3 and CODE 3 which indicates
             # a host is up but no port available to talk to

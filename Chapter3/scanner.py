@@ -108,7 +108,7 @@ try:
         # create an IP header from the first 20 bytes of the buffer
         ip_header = IP(raw_buffer[0:20])
 
-        # print "Protocol: %s %s -> %s" % (ip_header.protocol, ip_header.src_address, ip_header.dst_address)
+        print "Protocol: %s %s -> %s" % (ip_header.protocol, ip_header.src_address, ip_header.dst_address)
 
         # if it's ICMP we want it
         if ip_header.protocol == "ICMP":
@@ -120,7 +120,7 @@ try:
             # create our ICMP structure
             icmp_header = ICMP(buf)
 
-            # print "ICMP -> Type: %d Code: %d" % (icmp_header.type, icmp_header.code)
+            print "ICMP -> Type: %d Code: %d" % (icmp_header.type, icmp_header.code)
 
             # now check for the TYPE 3 and CODE 3 which indicates
             # a host is up but no port available to talk to
