@@ -27,7 +27,12 @@ def restore_target(gateway_ip, target_ip, gateway_mac, target_mac):
     print " Systems restored - exiting..."
 
 #TODO define get_mac
-
+def get_mac(ip_address):
+    # send/receive packages on ethernet w/ dest "ff:ff:..."
+    resp, unans = sr(ARP(op=1, hwdst="ff:ff:ff:ff:ff:ff", pdst=ip_address), retry=2, timeout=10)
+    for s,r in resp:
+        return r[ARP].hwsrc
+    return None
 #TODO define poison_target
 
 #TODO define body
