@@ -21,8 +21,10 @@ def restore_target(gateway_ip,gateway_mac,target_ip,target_mac):
     print("System restored. Exiting...")
 
 def get_mac(ip_address):
+    # srp = send and recieve packets
+    # srp method emits ARP request to IP address to resolve MAC
     responses, unanswered = srp(Ether(dst="ff:ff:ff:ff:ff:ff")/ARP(pdst=ip_address),timeout=2,retry=10)
-# return the MAC address from a response
+    # return the MAC address from a response
     for s,r in responses:
         return r[Ether].src
     return None
