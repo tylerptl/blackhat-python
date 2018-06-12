@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sergeant's Website </title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="/assets/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="/assets/css/main.css" />
+		<link href="http://fonts.googleapis.com/css?family=Signika" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Milonga" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="container_12">
+		<nav>
+			<div class="grid_4"><h1>Sergeant's Website</h1></div>
+			<div class="grid_3"><h2 class="header"></h2></div>
+			<div class="grid_5">
+			<ul>
+				<li class="active">	<a href="/">Home</a></li>
+				<li class="disabled">	<a href="/classes.php">Classes</a></li>
+				<li class="disabled">	<a href="/other.php">Other</a></li>
+			</ul>
+			</div>
+		</nav>
+		<div class="clear"></div>
+
+		<section class = "grid_12 divider"></section>
+		<section class="grid_6">
+			<div class="tile wide">
+				<h3><a href="classes.php?id=p2">CSCI 2320: Program Design II
+</a></h3>
+				<ul>
+					<li><a href = "classes/p2/homework/">Homework Assignments</a></li>
+					<li><a href = "classes/p2/source/">Files and Programs</a></li>
+					<li><a href = "classes/p2/syllabus/">Course Syllabus</a></li>
+				</ul>
+			</div>
+				<div class="tile wide">
+				<h3><a href="classes.php?id=al">CSCI 3320: Assembly
+</a></h3>
+				<ul>
+					<li><a href = "classes/al/homework/">Homework Assignments</a></li>
+					<li><a href = "classes/al/source/">Files and Programs</a></li>
+					<li><a href = "classes/al/syllabus/">Course Syllabus</a></li>
+				</ul>
+			</div>
+				<div class="tile wide">
+				<h3><a href="classes.php?id=ds">CSCI 3323: Data Structures
+</a></h3>
+				<ul>
+					<li><a href = "classes/ds/homework/">Homework Assignments</a></li>
+					<li><a href = "classes/ds/source/">Files and Programs</a></li>
+					<li><a href = "classes/ds/syllabus/">Course Syllabus</a></li>
+				</ul>
+			</div>
+			</section>
+
+		<section class = "grid_3">
+			<div class = "tile mini">
+				<h3> <a href = "http://www.hsutx.edu/faculty-profile/kelley/sergeant-terry"> Dr. Terry Sergeant </a> </h3>
+				<ul>
+					<li> JB-322 </li>
+					<li> 325-670-1292 </li>
+					<li> <a href="mailto:tsergeant@hsutx.edu">tsergeant@hsutx.edu</a> </li>
+					<li> HSU Box 16220 </li>
+				</ul>
+			</div>
+		</section>
+
+		<section class = "grid_3">
+					<div class = "tile mini">
+				<h3> Quick Links </h3>
+				<ul>
+					<li><a href="http://www.hsutx.edu/">HSU Home</a></li>
+					<!--
+					<li><a href="https://hsubb.hsutx.edu/webapps/login/">Blackboard</a></li>
+					-->
+					<li><a href="https://hsutx.instructure.com">Canvas</a></li>
+					<li><a href="http://www.hsutx.edu/academics/kelley/computerscience">HSU CSCI</a></li>
+				</ul>
+			</div>
+		</section>
+
+		<section class = "grid_6">
+			<div class = "tile verse">
+				<script type="text/javascript" src="/assets/js/randomverse.js"></script>
+			</div>
+		</section>
+
+		<div class="clear"></div>
+		<aside class="grid_12">Designed by David Tappert and Terry Sergeant</aside>
+
+	</div>
+	<!--[if lt IE 9]>
+	<script src="/assets/js/html5shiv.js"></script>
+	<![endif]-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<script src="/assets/js/adapt.config.js"></script>
+	<script src="/assets/js/adapt.min.js"></script>
+</body>
