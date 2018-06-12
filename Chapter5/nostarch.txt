@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<script src="/cdn-cgi/apps/head/_Yd33iVQmzx1XZrSaZuiVTLpv7Y.js"></script><link rel="profile" href="https://www.w3.org/1999/xhtml/vocab" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://nostarch.com/sites/default/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://nostarch.com/" />
+<link rel="shortlink" href="https://nostarch.com/" />
+<title>No Starch Press | "The finest in geek entertainment"</title>
+<link type="text/css" rel="stylesheet" href="https://nostarch.com/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://nostarch.com/sites/default/files/css/css_iJE8OMtNhvOQPbQGg8OqRmpr7AhRCfmCisQy8q7fFhk.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://nostarch.com/sites/default/files/css/css_-ED5mSDi2J0mJNLdnWftdu4UjRHpo8Es5qngnLZm3Ec.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://nostarch.com/sites/default/files/css/css_AwOJVn3jdGwAWV_K-lDvOjtfrwgvh3Kzpwk64De7ebk.css" media="all" />
+
+<!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+<script>window.google_analytics_uacct = "UA-5027625-1";</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js'>\x3C/script>")</script>
+<script src="https://nostarch.com/sites/default/files/js/js_vSmhpx_T-AShyt_WMW5_TcwwxJP1imoVOa8jvwL_mxE.js"></script>
+<script src="https://nostarch.com/sites/default/files/js/js_BLxotNs2yt7YGlf9QRI9L9AMfdnkQfnN-_ADBTW3SiE.js"></script>
+<script src="https://nostarch.com/sites/default/files/js/js_FvBWezKhsGxJU-Yi41qvYAlpXctdNNR7mIzff4prZrg.js"></script>
+<script src="https://nostarch.com/sites/default/files/js/js_rCIt64_gD-LYmA2i269mzq_eI-FL_7hGZp598_d_j7Q.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-5027625-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="https://nostarch.com/sites/default/files/js/js_YVgz8u7U_iU4-YMa-K5LKZE5ZLG-tMsX72JC46wjRZM.js"></script>
+<script src="https://nostarch.com/sites/default/files/js/js_yo9QJ55hHiYOUgCDdekfA51z0MNyY09hHAlJw4Uz1s8.js"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"nostarch","theme_token":"y1rvwAmpaWCSRHPte-R8ZLODpg18pJQ2g6FTJLDaUdk","jquery_version":"1.10","js":{"sites\/all\/modules\/contrib\/addthis\/addthis.js":1,"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"0":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.10.2\/jquery.min.js":1,"1":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/contrib\/ubercart\/uc_file\/uc_file.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/plain\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_inline.js":1,"sites\/all\/modules\/contrib\/views\/js\/base.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_progress.js":1,"sites\/all\/modules\/contrib\/views\/js\/ajax_view.js":1,"sites\/all\/modules\/contrib\/ubercart\/uc_cart\/uc_cart_block.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"2":1,"sites\/all\/themes\/nostarch\/js\/bootstrap.min.js":1,"sites\/all\/themes\/nostarch\/js\/main.js":1,"sites\/all\/themes\/nostarch\/js\/front_grid_height.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/ajax.js":1,"sites\/all\/themes\/bootstrap\/js\/modules\/views\/js\/ajax_view.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"sites\/all\/modules\/contrib\/mollom\/mollom.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/uc_fedex\/uc_fedex.css":1,"sites\/all\/modules\/contrib\/ubercart\/uc_file\/uc_file.css":1,"sites\/all\/modules\/contrib\/ubercart\/uc_order\/uc_order.css":1,"sites\/all\/modules\/contrib\/ubercart\/uc_product\/uc_product.css":1,"sites\/all\/modules\/contrib\/ubercart\/uc_store\/uc_store.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/uc_discounts_alt\/uc_discounts\/uc_discounts.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/plain\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/ubercart\/uc_cart\/uc_cart_block.css":1,"sites\/all\/themes\/nostarch\/css\/en_styles.css":1,"sites\/all\/themes\/nostarch\/css\/custom.css":1,"sites\/all\/themes\/nostarch\/css\/bootstrap-3-vert-offset.css":1,"sites\/all\/themes\/nostarch\/css\/bootstrap-3-autoclear.css":1,"sites\/all\/themes\/nostarch\/css\/glyphicons.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"better_exposed_filters":{"views":{"frontpage_new":{"displays":{"block_frontpage":{"filters":[]}}},"frontpage_comingsoon":{"displays":{"block_frontpage":{"filters":[]}}},"topics":{"displays":{"block":{"filters":[]}}}}},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:a33e90413f5d3139929ead0380561310":{"view_name":"frontpage_comingsoon","view_display_id":"block_frontpage","view_args":"","view_path":"node\/14","view_base_path":"frontpage_comingsoon","view_dom_id":"a33e90413f5d3139929ead0380561310","pager_element":0}}},"urlIsAjaxTrusted":{"\/views\/ajax":true,"\/":true},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"bootstrap":{"anchorsFix":"0","anchorsSmoothScrolling":"0","formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html front not-logged-in two-sidebars page-node page-node- page-node-14 node-type-page">
+<div id="skip-link">
+<a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+</div>
+<header id="" class="header" role="banner" class="navbar navbar-default">
+<div class="container">
+<div class="row">
+<nav role="navigation" class="navbar navbar-default visible-xs">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand text-uppercase" href="/"><img src="https://nostarch.com/sites/all/themes/nostarch/logo.png" alt="Home" class="img-responsive" /></a>
+</div>
+<div id="navbar" class="navbar-collapse collapse text-center">
+<ul class="menu nav navbar-nav"><li class="first leaf"><a href="/catalog.htm" title="Explore our catalog">Catalog</a></li>
+<li class="leaf"><a href="/media.htm" title="Media contact">Media</a></li>
+<li class="leaf"><a href="/writeforus" title="Submit a book proposal">Write for Us</a></li>
+<li class="leaf"><a href="/about" title="About No Starch Press">About Us</a></li>
+<li class="last leaf"><a href="/contactus" title="Contact Us">Contact Us</a></li>
+</ul> <div class="region region-navigation">
+<section id="block-search-form" class="block block-search clearfix">
+<form class="form-search content-search" action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div>
+<h2 class="element-invisible">Search form</h2>
+<div class="input-group"><input title="Enter the terms you wish to search for." placeholder="Search" class="form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" /><span class="input-group-btn"><button type="submit" class="btn btn-primary"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span></button></span></div><div class="form-actions form-wrapper form-group" id="edit-actions--33"><button class="element-invisible btn btn-default form-submit" type="submit" id="edit-submit--8" name="op" value="GO!">GO!</button>
+</div><input type="hidden" name="form_build_id" value="form-k0UX39Im144HmXwQxIyZ4QpSPugc2jr45kuDbw_Abu4" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>
+</section>
+</div>
+</div>
+</nav>
+<div class="navbar-header">
+<div class="logo-wrapper col-sm-6 hidden-xs">
+<a class="logo navbar-btn pull-left" href="/" title="Home">
+<img src="https://nostarch.com/sites/all/themes/nostarch/logo.png" alt="Home" class="img-responsive" />
+</a>
+</div>
+<div class="logo-wrapper col-sm-6 hidden-xs">
+<div class="region region-navigation">
+<div class="region region-navigation">
+<section id="block-search-form" class="block block-search clearfix">
+<form class="form-search content-search" action="/" method="post" id="search-block-form" accept-charset="UTF-8"><div><div>
+<h2 class="element-invisible">Search form</h2>
+<div class="input-group"><input title="Enter the terms you wish to search for." placeholder="Search" class="form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" /><span class="input-group-btn"><button type="submit" class="btn btn-primary"><span class="icon glyphicon glyphicon-search" aria-hidden="true"></span></button></span></div><div class="form-actions form-wrapper form-group" id="edit-actions--33"><button class="element-invisible btn btn-default form-submit" type="submit" id="edit-submit--8" name="op" value="GO!">GO!</button>
+</div><input type="hidden" name="form_build_id" value="form-k0UX39Im144HmXwQxIyZ4QpSPugc2jr45kuDbw_Abu4" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>
+</section>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="navbar-collapse collapse">
+<nav role="navigation">
+<ul class="menu nav navbar-nav"><ul class="menu nav navbar-nav"><li class="first leaf"><a href="/catalog.htm" title="Explore our catalog">Catalog</a></li>
+<li class="leaf"><a href="/media.htm" title="Media contact">Media</a></li>
+<li class="leaf"><a href="/writeforus" title="Submit a book proposal">Write for Us</a></li>
+<li class="leaf"><a href="/about" title="About No Starch Press">About Us</a></li>
+<li class="last leaf"><a href="/contactus" title="Contact Us">Contact Us</a></li>
+</ul></ul> </nav>
+</div>
+</div>
+</div>
+</header>
+<div class="main-container container">
+<header role="banner" id="page-header">
+</header> 
+<div class="row">
+<aside class="col-sm-3" role="complementary">
+<div class="region region-sidebar-first well">
+<section id="block-views-topics-block" class="block block-views clearfix">
+<button class="btn btn-primary btn-block visible-xs vert-offset-top-2" data-toggle="collapse" data-target="#topics"><span class="glyphicon glyphicon-menu-down pull-left"></span>
+<span class="btn-text">Topics</span><span class="glyphicon glyphicon-menu-down pull-right"></span></button>
+<h2 class="block-title hidden-xs">Topics</h2>
+<div id="topics" class="view-content collapse dont-collapse animateCollapse">
+<div class="view view-topics view-id-topics view-display-id-block view-dom-id-23320224a9e2a4a0a4631e9a01868f97">
+<div class="view-content">
+<div class="item-list"> <ul> <li class="views-row views-row-1 views-row-odd views-row-first">
+<div class="views-field views-field-name"> <span class="field-content"><a href="/catalog/arduino">Arduino</a></span> </div></li>
+<li class="views-row views-row-2 views-row-even">
+<div class="views-field views-field-name"> <span class="field-content"><a href="/catalog/art-photography-design">Art &amp; Design</a></span> </div></li>
+<li class="views-row views-row-3 views-row-odd">
+<div class="views-field views-field-name"> <span class="field-content"><a href="/catalog/general-computing">General Computing</a></span> </div></li>
+<li class="views-row views-row-4 views-row-even">
+<div class="views-field views-field-name"> <span class="field-content"><a href="/catalog/security">Hacking &amp; Computer Security</a></span> </div></li>
+<li class="views-row views-row-5 views-row-odd">
+<div class="views-field views-field-name"> <span class="field-content"><a href="/catalog/hardware-and-diy">Hardware / DIY</a></span> </div></li>
+<li class="views-row views-row-6 views-row-even">
+<div class="views-field views-field-name"> <span class="field-content"><a href="/catalog/javascript">JavaScript</a></span> </div></li>
+<li class="views-row views-row-7 views-row-odd">
+<div class="views-field views-field-name"> <span class="field-content"><a href="/catalog/kids">Kids</a></span> </div></li>
+<li class="views-row views-row-8 views-row-even">
+<div class="views-field views-field-name"> <span class="field-content"><a href="/catalog/lego">LEGO®</a></span> </div></li>
+<li class="views-row views-row-9 views-row-odd">
+<div class="views-field views-field-name"> <span class="field-content"><a href="/catalog/lego-mindstorms">LEGO® MINDSTORMS®</a></span> </div></li>
+<li class="views-row views-row-10 views-row-even">
+<div class="views-field views-field-name"> <span class="field-content"><a href="/catalog/linux-bsd-unix">Linux &amp; BSD</a></span> </div></li>
+<li class="views-row views-row-11 views-row-odd">
+<div class="views-field views-field-name"> <span class="field-content"><a href="/catalog/manga">Manga</a></span> </div></li>
+<li class="views-row views-row-12 views-row-even">
+<div class="views-field views-field-name"> <span class="field-content"><a href="/catalog/minecraft">Minecraft</a></span> </div></li>
+<li class="views-row views-row-13 views-row-odd">
+<div class="views-field views-field-name"> <span class="field-content"><a href="/catalog/programming">Programming</a></span> </div></li>
+<li class="views-row views-row-14 views-row-even">
+<div class="views-field views-field-name"> <span class="field-content"><a href="/catalog/python">Python</a></span> </div></li>
+<li class="views-row views-row-15 views-row-odd">
+<div class="views-field views-field-name"> <span class="field-content"><a href="/catalog/science-math">Science &amp; Math</a></span> </div></li>
+<li class="views-row views-row-16 views-row-even">
+<div class="views-field views-field-name"> <span class="field-content"><a href="/catalog/scratch">Scratch</a></span> </div></li>
+<li class="views-row views-row-17 views-row-odd">
+<div class="views-field views-field-name"> <span class="field-content"><a href="/catalog/system-administration">System Administration</a></span> </div></li>
+<li class="views-row views-row-18 views-row-even">
+<div class="views-field views-field-name"> <span class="field-content"><a href="/catalog/early-access">Early Access</a></span> </div></li>
+<li class="views-row views-row-19 views-row-odd views-row-last">
+<div class="views-field views-field-name"> <span class="field-content"><a href="/catalog/gift-certificates">Gift Certificates</a></span> </div></li>
+</ul></div> </div>
+<div class="view-footer">
+<style>
+<!--/*--><![CDATA[/* ><!--*/
+
+.view-topics .item-list a {font-weight: bold;}
+.view-topics  ul {padding-left: 20px;}
+
+/*--><!]]>*/
+</style> </div>
+</div> </div>
+</section><section id="block-block-12" class="block block-block clearfix">
+<div class="rounded_border_block"><a href="/about_ebooks.htm" style="color: red1;">Free ebook edition with every print book purchased from nostarch.com!</a></div>
+</section>
+<section id="block-uc-cart-cart" class="block block-uc-cart clearfix">
+<h2 class="block-title"><a href="/cart"><span class="cart-block-icon-empty" title="View your shopping cart."></span></a><span class="cart-block-title-bar" title="Show/hide shopping cart contents.">Shopping cart<span class="cart-block-arrow arrow-down"></span></span></h2>
+<p class="cart-block-items collapsed uc-cart-empty">There are no products in your shopping cart.</p><table class="cart-block-summary"><tbody><tr><td class="cart-block-summary-items"><span class="num-items">0</span> Items</td><td class="cart-block-summary-total"><label>Total:</label> <span class="uc-price">$0.00</span></td></tr></tbody></table>
+</section>
+<section id="block-nostarch-custom-login-block" class="block block-nostarch-customclearfix">
+<h2 class="block-title">User login</h2>
+<ul>
+<li><a href="/user">Log in</a></a></li>
+<li><a href="/user/register">Create account</a></a></li>
+</ul>
+</section>
+<section id="block-nostarch-custom-bestsellers" class="block block-nostarch-customclearfix">
+<h2 class="block-title">Bestsellers</h2>
+<div align="center">
+<div class="view view-favorites view-id-favorites view-display-id-default auto-clear view-dom-id-c6e700481b77bc9be9a3ca62e9aa4038">
+<div class="view-content">
+<div class="views-row views-row-1 views-row-odd views-row-first col-xs-6 col-sm-6 col-md-12">
+<div class="views-field views-field-field-image-cache"> <div class="field-content"><a href="/tcpip.htm"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/product/public/tcp_cvr.png?itok=T7Mye1sy" width="90" height="119" alt="TCP/IP Guide" title="TCP/IP Guide" /></a></div> </div> </div>
+<div class="views-row views-row-2 views-row-even col-xs-6 col-sm-6 col-md-12">
+<div class="views-field views-field-field-image-cache"> <div class="field-content"><a href="/tlcl"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/product/public/linuxcommandline.png?itok=CKMlQIsd" width="90" height="119" alt="The Linux Command Line" title="The Linux Command Line" /></a></div> </div> </div>
+<div class="views-row views-row-3 views-row-odd col-xs-6 col-sm-6 col-md-12">
+<div class="views-field views-field-field-image-cache"> <div class="field-content"><a href="/artofr.htm"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/product/public/R_cvr_front.png?itok=JHZepgKz" width="90" height="119" alt="The Art of R Programming" title="The Art of R Programming" /></a></div> </div> </div>
+<div class="views-row views-row-4 views-row-even col-xs-6 col-sm-6 col-md-12">
+<div class="views-field views-field-field-image-cache"> <div class="field-content"><a href="/ev3discovery"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/product/public/EV3D_cover_web.png?itok=Y0xTIsez" width="90" height="113" alt="The LEGO MINDSTORMS EV3 Discovery Book" title="The LEGO MINDSTORMS EV3 Discovery Book" /></a></div> </div> </div>
+<div class="views-row views-row-5 views-row-odd col-xs-6 col-sm-6 col-md-12">
+<div class="views-field views-field-field-image-cache"> <div class="field-content"><a href="/microprocessors"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/product/public/MangaMicroprocessors_cover_0.png?itok=9D8RTfTp" width="90" height="119" alt="The Manga Guide to Microprocessors" title="The Manga Guide to Microprocessors" /></a></div> </div> </div>
+<div class="views-row views-row-6 views-row-even views-row-last col-xs-6 col-sm-6 col-md-12">
+<div class="views-field views-field-field-image-cache"> <div class="field-content"><a href="/javascriptforkids"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/product/public/jsfk_cover-front_final.png?itok=qzNLUXYH" width="90" height="119" alt="JavaScript for Kids" title="JavaScript for Kids" /></a></div> </div> </div>
+</div>
+</div> </div>
+</section>
+</div>
+</aside> 
+<section class="col-sm-6" style="">
+<a id="main-content"></a>
+<h1 class="page-header">No Starch Press</h1>
+<div class="region region-content">
+<section id="block-system-main" class="block block-system clearfix">
+<div class="ds-1col node node-page view-mode-full clearfix">
+<div class="col-md-6 col-xs-12 product-teaser product-teaser-new auto-clear">
+<h2 class="title"><b>New!</b></h2>
+<section id="block-views-frontpage-new-block-frontpage" class="block block-views clearfix">
+<div class="view view-frontpage-new view-id-frontpage_new view-display-id-block_frontpage view-dom-id-0c0b265974fe164d7c4bb1eb2a328f1c">
+<div class="view-content">
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<article id="node-441" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/codingwithminecraft">Coding with Minecraft</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/codingwithminecraft"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/minecraftstuff_cover-front-final.png?itok=aV4Dx5zc" width="170" height="225" alt="Coding with Minecraft" title="Coding with Minecraft" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="/automateminecraft">Coding with Minecraft</a> is a hands-on introduction to coding that teaches how to program bots to do cool things in Minecraft.</p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-2 views-row-even">
+<article id="node-401" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/practicalSQL">Practical SQL</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/practicalSQL"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/PracticalSQL_cover.png?itok=pUFwwMUU" width="170" height="225" alt="Practical SQL " title="Practical SQL" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="https://www.nostarch.com/practicalSQL">Practical SQL</a> is a pragmatic, plain-English guide to programming in SQL for anyone working with data analysis and management.</p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-3 views-row-odd">
+<article id="node-438" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/RaspberryPiProject">20 Easy Raspberry Pi Projects</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/RaspberryPiProject"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/raspberrypi_cover-front-new.png?itok=OVkxnomd" width="170" height="225" alt="20 Easy Raspberry Pi Projects" title="20 Easy Raspberry Pi Projects" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="/RaspberryPiProject">20 Easy Raspberry Pi Projects</a> is a step-by-step guide to the Raspberry Pi, for beginners looking to make cool things right away.</p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-4 views-row-even">
+<article id="node-425" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/crackingcodes">Cracking Codes with Python</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/crackingcodes"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/CrackingCodes_cover.png?itok=x6nmSDjb" width="170" height="225" alt="Cracking Codes with Python" title="Cracking Codes with Python" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="/crackingcodes">Cracking Codes with Python</a> teaches you how to program in Python while making and breaking ciphers.</p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-5 views-row-odd">
+<article id="node-390" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/networkprotocols">Attacking Network Protocols</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/networkprotocols"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/anp_cover-front-final.png?itok=r474jaHL" width="170" height="225" alt="Attacking Network Protocols" title="Attacking Network Protocols" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><b><a href="/networkprotocols">Attacking Network Protocols</a></b> is a deep dive into network protocol security from James Forshaw, one of the world’s leading bug ­hunters.</p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-6 views-row-even">
+<article id="node-428" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/seriouscrypto">Serious Cryptography</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/seriouscrypto"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/crypto_cover-front-final.png?itok=eyMWkHBZ" width="170" height="225" alt="Serious Cryptography" title="Serious Cryptography" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="/SeriousCrypto">Serious Cryptography</a> is a practical guide to the past, present, and future of cryptographic systems and algorithms. </p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-7 views-row-odd">
+<article id="node-403" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/learnjava">Learn Java the Easy Way</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/learnjava"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/LearnJavatheEasyWay_cover.png?itok=-PKDKMlN" width="170" height="225" alt="Learn Java the Easy Way" title="Learn Java the Easy Way" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="/learnjava">Learn Java the Easy Way</a> is a beginner-friendly, project-based introduction to Java.</p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-8 views-row-even">
+<article id="node-400" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/legotrains">LEGO Trains Book</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/legotrains"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/LEGOTrains_cover.png?itok=oO9AgIDp" width="225" height="225" alt="The LEGO Trains Book" title="The LEGO Trains Book" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>The <a href="/legotrains">LEGO Trains Book</a> is an illustrated guide to the world of LEGO train building. </p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-9 views-row-odd">
+<article id="node-375" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/computersforseniors">Computers for Seniors</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/computersforseniors"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/computers_for_seniors_cover_new.png?itok=h3K22gS-" width="170" height="225" alt="Computers for Seniors" title="Computers for Seniors" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="https://www.nostarch.com/computersforseniors">Computers for Seniors</a> is a step-by-step guide to learning basic computer skills.</p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-10 views-row-even">
+<article id="node-394" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/arduinohandbook2">Arduino Project Handbook, Vol. 2</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/arduinohandbook2"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/ArduinoProjectHandbookV2_cover.png?itok=f3nfTc50" width="170" height="225" alt="Arduino Project Handbook Vol. 2" title="Arduino Project Handbook Vol. 2" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="/arduinohandbook2">Arduino Project Handbook, Vol. 2</a> is a full-color guide to building 25 fun and practical projects with the low-cost Arduino microcontroller.</p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-11 views-row-odd">
+<article id="node-393" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/microprocessors">The Manga Guide to Microprocessors</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/microprocessors"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/MangaMicroprocessors_cover_0.png?itok=-TK0kbqD" width="170" height="225" alt="The Manga Guide to Microprocessors" title="The Manga Guide to Microprocessors" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="microprocessors">The Manga Guide to Microprocessors</a> is a comic guide to microprocessors, computer architecture, and digital operations. </p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-12 views-row-even">
+<article id="node-423" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/gtfo">PoC||GTFO</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/gtfo"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/GTFO_cover_new.png?itok=Kgol-tfz" width="170" height="225" alt="PoC||GTFO" title="PoC||GTFO" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="https://www.nostarch.com/gtfo">PoC||GTFO</a> is a compilation of the wildly popular hacker zine of the same name. Contributions range from humorous poems to deeply technical essays.</p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-13 views-row-odd">
+<article id="node-346" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/sparkfunarduino">Arduino Inventor&#039;s Guide</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/sparkfunarduino"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/ArduinoInventor%27sGuide_cover_0.png?itok=PRrToNx-" width="170" height="225" alt="The Arduino Inventor&#039;s Guide" title="The Arduino Inventor&#039;s Guide" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="/sparkfunarduino">Arduino Inventor's Guide</a> is a hands-on introduction to exploring electronics with Arduino for total beginners.</p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-14 views-row-even">
+<article id="node-389" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/grayhatcsharp">Gray Hat C#</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/grayhatcsharp"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/GrayHatC_cover.png?itok=gAXui-T_" width="170" height="225" alt="Gray Hat C#" title="Gray Hat C#" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="https://www.nostarch.com/GrayHatCSharp">Gray Hat C#</a> shows you how to use C#'s powerful set of core libraries to create and automate security tools.</p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-15 views-row-odd">
+<article id="node-371" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/iphoneappsforkids">Coding iPhone Apps for Kids</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/iphoneappsforkids"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/CodingiPhoneAppsforKids_cover.png?itok=PgUdhO4H" width="170" height="225" alt="Coding iPhone Apps for Kids" title="Coding iPhone Apps for Kids" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="/iphoneappsforkids">Coding iPhone Apps for Kids</a> teaches you how to program the iOS apps and games you’ve always wanted to make!</p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-16 views-row-even views-row-last">
+<article id="node-392" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/packetanalysis3">Practical Packet Analysis, 3rd Edition</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/packetanalysis3"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/PracticalPacketAnalysis3E_cover.png?itok=I5kSNKHI" width="170" height="225" alt="Practical Packet Analysis, 3rd Edition" title="Practical Packet Analysis, 3rd Edition" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="/packetanalysis3">Practical Packet Analysis, 3rd Ed.</a> teaches you how to use Wireshark for packet capture and analysis.</p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+</div>
+<div class="view-footer">
+<div class="feed-icon">
+<a href="/feeds/newbooks.xml" class="feed-icon" title="Subscribe to No Starch Press - New Books"><img class="img-responsive" src="/misc/feed.png" width="16" height="16" alt="Subscribe to No Starch Press - New Books"></a> </div> </div>
+</div>
+</section>
+</div>
+<div class="col-md-6 col-xs-12 product-teaser product-teaser-soon auto-clear">
+<a href="/upcoming.htm"><h2 class="title"><b>Coming Soon</b></h2></a>
+<section id="block-views-frontpage-comingsoon-block-frontpage" class="block block-views clearfix">
+<div class="view view-frontpage-comingsoon view-id-frontpage_comingsoon view-display-id-block_frontpage view-dom-id-a33e90413f5d3139929ead0380561310">
+<div class="view-content">
+<div class="views-row views-row-1 views-row-odd views-row-first">
+<article id="node-402" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/Rust">The Rust Programming Language</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/Rust"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/RustProgrammingLanguage_cover_0.png?itok=2oA4AD-8" width="170" height="225" alt="The Rust Programming Language" title="The Rust Programming Language" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="/Rust">The Rust Programming Language</a> is the official hands-on, no-nonsense guide to learning Rust, from the Rust developers at Mozilla. <i>Now Available in Early Access!</i></p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-2 views-row-even">
+<article id="node-398" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/LEDprojects">10 LED Projects for Geeks</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/LEDprojects"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/ledprojects_cover-front.png?itok=ap6OrhVq" width="170" height="225" alt="10 LED Projects for Geeks" title="10 LED Projects for Geeks" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="/LEDprojects">10 LED Projects for Geeks</a> is a collection of interactive and customizable projects using LEDs.</p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-3 views-row-odd">
+<article id="node-462" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/scratchjrcards">ScratchJr Coding Cards</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/scratchjrcards"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/scratchjrcc_cover-front_new.png?itok=ifvR0hiU" width="165" height="225" alt="ScratchJr Coding Cards" title="ScratchJr Coding Cards" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="/scratchjrcards">ScratchJr Coding Cards</a> are a deck of 75 activity cards covering fun and exciting projects designed to educate young children with the visual programming language, ScratchJr.</p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-4 views-row-even">
+<article id="node-440" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/azure">Pentesting Azure Applications</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/azure"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/azure_cover-front-retitle.png?itok=CZW4biky" width="170" height="225" alt="Pentesting Azure Applications" title="Pentesting Azure Applications" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="/azure">Pentesting Azure Applications</a> is a comprehensive guide to penetration testing cloud services deployed in Microsoft Azure.</p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-5 views-row-odd">
+<article id="node-453" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/linuxbasicsforhackers">Linux Basics for Hackers</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/linuxbasicsforhackers"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/LinuxBasicsforHackers_cover-front.png?itok=_8Xq9RaH" width="170" height="225" alt="Linux Basics for Hackers" title="Linux Basics for Hackers" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="/linuxforhackers">Linux Basics for Hackers</a> uses the Kali Linux distribution to explain core Linux topics like filesystems, networking, packagemnet, and BASH. <i>Now available in Early Access!</i></p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-6 views-row-even">
+<article id="node-404" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/mangacrypto">The Manga Guide to Cryptography</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/mangacrypto"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/MangaCrypto_cover.png?itok=hz0Iyu4h" width="170" height="225" alt="The Manga Guide to Cryptography" title="The Manga Guide to Cryptography" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="https://www.nostarch.com/mangacrypto">The Manga Guide to Cryptography</a> is a comic introduction to ciphers, symmetric-key algorithms, and public key encryption. <i>Now Available in Early Access!</i></p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-7 views-row-odd">
+<article id="node-460" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/malwaredatascience">Malware Data Science</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/malwaredatascience"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/malwarescience_cover-front.png?itok=PWNlJbbZ" width="170" height="225" alt="Malware Data Science" title="Malware Data Science" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="/malwaredatascience">Malware Data Science</a> explains how to identify, analyze, and classify large-scale malware using machine learning and data visualization. <i>Now Available in Early Access!</i></p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-8 views-row-even">
+<article id="node-426" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/legoarchitecture">LEGO Architecture Idea Book</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/legoarchitecture"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/legoaib_cover-front-new.png?itok=ClxqypEn" width="225" height="225" alt="The LEGO Architecture Idea Book" title="The LEGO Architecture Idea Book" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="https://www.nostarch.com/legoarchitecture">The LEGO Architecture Idea Book</a> shows you how to make realistic structures for your LEGO designs.</p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-9 views-row-odd">
+<article id="node-444" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/seriouspython">Serious Python</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/seriouspython"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/hackerspython_cover-front_v5.png?itok=eoHeAP6s" width="170" height="225" alt="Serious Python" title="Serious Python" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="/seriouspython">Serious Python</a> is an indispensable collection of practical tips and real-world advice for tackling common Python problems. <i>Now Available in Early Access!</i></p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-10 views-row-even">
+<article id="node-488" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/boostideabook">LEGO BOOST Idea Book</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/boostideabook"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/LEGOBOOSTIdeaBk_CoverFront.png?itok=cIE7t3Ii" width="178" height="225" alt="LEGO BOOST Idea Book" title="LEGO BOOST Idea Book" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>The <a href="/boostideabook">LEGO BOOST Idea Book</a> contains dozens of ideas for building simple robots with the LEGO BOOST set.</p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-11 views-row-odd">
+<article id="node-457" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/impracticalpython">Impractical Python</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/impracticalpython"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/impracticalpython_cover-front_new.png?itok=SYt6tzcp" width="170" height="225" alt="Impractical Python" title="Impractical Python" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="/impracticalpython">Impractical Python</a> is a collection of fun and educational projects designed to entertain programmers while enhancing their Python skills. </p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-12 views-row-even">
+<article id="node-483" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/binaryanalysis">Practical Binary Analysis</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/binaryanalysis"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/binary_cover-front.png?itok=auX2nX9Q" width="170" height="225" alt="Practical Binary Analysis" title="Practical Binary Analysis" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="/binary">Practical Binary Analysis</a> is the first book of its kind to present advanced binary analysis topics, such as binary instrumentation, dynamic taint analysis, and symbolic execution, in an accessible way.</p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-13 views-row-odd">
+<article id="node-451" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/absfreebsd3">Absolute FreeBSD, 3rd Edition</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/absfreebsd3"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/freebsd3_cover-front.png?itok=FQxX43k1" width="170" height="225" alt="Absolute FreeBSD, 3rd Edition" title="Absolute FreeBSD, 3rd Edition" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p>This updated edition of <a href="/absfreebsd3">Absolute FreeBSD</a> adds coverage of modern disks, the ZFS filesystem IPv6, redesigned jail and packaging systems, virtualization, and more.</p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-14 views-row-even">
+<article id="node-437" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/missionpython">Mission Python</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/missionpython"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/missionpython_cover-front_new.png?itok=_T9XB00A" width="170" height="225" alt="Mission Python" title="Mission Python" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="/missionpython">Mission Python</a> will teach you how to program an adventure game in this hands-on, beginner-friendly introduction to coding in Python.</p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-15 views-row-odd">
+<article id="node-439" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/bughunting">Real-World Bug Hunting</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/bughunting"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/bughunting_cover-front.png?itok=ZDMwh03a" width="170" height="225" alt="Real-World Bug Hunting" title="Real-World Bug Hunting" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="/webhacking">Real-World Bug Hunting</a> uses real-world bug reports to teach programmers how to discover and protect vulnerabilities in web applications.</p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+<div class="views-row views-row-16 views-row-even views-row-last">
+<article id="node-459" class="node node-product node-promoted node-teaser clearfix">
+<header>
+<h2><a href="/pixelart">Make Your Own Pixel Art</a></h2>
+</header>
+<div class="field field-name-field-image-cache field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><a href="/pixelart"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/uc_product/public/MYOPixelArt_CvrFront.png?itok=zgJ-GSNY" width="225" height="150" alt="Make Your Own Pixel Art" title="Make Your Own Pixel Art" /></a></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even"><p><a href="/pixelart">Make Your Own Pixel Art</a> is a complete, illustrated introduction to the creation of pixel art aimed at beginners just starting out right through to the experienced pixel artist wanting to enhance their skills.</p>
+</div></div></div>
+<footer>
+</footer>
+</article>
+</div>
+</div>
+<div class="view-footer">
+<div class="feed-icon">
+<a href="/feeds/comingsoon.xml" class="feed-icon" title="Subscribe to No Starch Press - Coming Soon"><img class="img-responsive" src="/misc/feed.png" width="16" height="16" alt="Subscribe to No Starch Press - Coming Soon"></a> </div> </div>
+</div>
+</section>
+</div></div>
+</section>
+</div>
+</section>
+<aside class="col-sm-3" role="complementary">
+<div class="region region-sidebar-second">
+<section id="block-nostarch-custom-bestsellers-second-bar" class="block block-nostarch-custom clearfix">
+<h2 class="block-title">Bestsellers</h2>
+<div class="view view-favorites view-id-favorites view-display-id-default auto-clear view-dom-id-1160a26c89f544f8300431d1d58dc75b">
+<div class="view-content">
+<div class="views-row views-row-1 views-row-odd views-row-first col-xs-6 col-sm-6 col-md-12">
+<div class="views-field views-field-field-image-cache"> <div class="field-content"><a href="/mg_statistics.htm"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/product/public/mg_statistics_big.png?itok=PC_flWw8" width="90" height="119" alt="The Manga Guide to Statistics" title="The Manga Guide to Statistics" /></a></div> </div> </div>
+<div class="views-row views-row-2 views-row-even col-xs-6 col-sm-6 col-md-12">
+<div class="views-field views-field-field-image-cache"> <div class="field-content"><a href="/wcss2"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/product/public/WickedCoolShell2E_cover.png?itok=1q-qC-yI" width="90" height="119" alt="Wicked Cool Shell Scripts, 2nd Edition" title="Wicked Cool Shell Scripts, 2nd Edition" /></a></div> </div> </div>
+<div class="views-row views-row-3 views-row-odd col-xs-6 col-sm-6 col-md-12">
+<div class="views-field views-field-field-image-cache"> <div class="field-content"><a href="/assembly2.htm"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/product/public/assembly2_big.png?itok=K2tp-BnY" width="90" height="119" alt="The Art of Assembly Language, 2nd Edition" title="The Art of Assembly Language, 2nd Edition" /></a></div> </div> </div>
+<div class="views-row views-row-4 views-row-even col-xs-6 col-sm-6 col-md-12">
+<div class="views-field views-field-field-image-cache"> <div class="field-content"><a href="/tangledweb"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/product/public/tangledWeb_cvr-webquality.png?itok=sox5o6hZ" width="90" height="119" alt="The Tangled Web" title="The Tangled Web" /></a></div> </div> </div>
+<div class="views-row views-row-5 views-row-odd col-xs-6 col-sm-6 col-md-12">
+<div class="views-field views-field-field-image-cache"> <div class="field-content"><a href="/tlcl"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/product/public/linuxcommandline.png?itok=CKMlQIsd" width="90" height="119" alt="The Linux Command Line" title="The Linux Command Line" /></a></div> </div> </div>
+<div class="views-row views-row-6 views-row-even views-row-last col-xs-6 col-sm-6 col-md-12">
+<div class="views-field views-field-field-image-cache"> <div class="field-content"><a href="/lyah.htm"><img class="img-responsive" src="https://nostarch.com/sites/default/files/styles/product/public/lyah.png?itok=pjQf46xb" width="90" height="119" alt="Learn You a Haskell for Great Good!" title="Learn You a Haskell for Great Good!" /></a></div> </div> </div>
+</div>
+</div>
+</section>
+<section id="block-system-navigation" class="block block-system block-menu clearfix">
+<h2 class="block-title">Navigation</h2>
+<ul class="menu nav"><li class="first last leaf"><a href="/user" title="">My account</a></li>
+</ul>
+</section>
+<section id="block-block-52" class="block block-block clearfix">
+<p><a href="/mailchimp/subscribe">Want sweet deals? <br />Sign up for our newsletter.</a></p>
+</section>
+<section id="block-block-1" class="block block-block clearfix">
+<h2 class="block-title">News</h2>
+<p>Now available in <a href="/aboutearlyaccess">Early Access</a>!</p>
+<p>❧ <a href="/practicalsql">Practical SQL</a><br />
+❧ <a href="/LEDHandbook">LED Project Handbook</a><br />
+❧ <a href="/Rust">The Rust Programming Language</a><br />
+❧ <a href="/mangacrypto">The Manga Guide to Cryptography</a><br />
+❧ <a href="/linuxbasicsforhackers">Linux Basics for Hackers</a><br />
+❧ <a href="/malwaredatascience">Malware Data Science</a><br />
+❧ <a href="/seriouspython">Serious Python</a><br />
+❧ <a href="/mathadventures">Math Adventures with Python</a><br />
+❧ <a href="/rootkits">Rootkits and Bootkits</a></p>
+<p>Read <b><a href="/crackingcodes" target="new">Cracking Codes with Python</a></b> author Al Sweigart's <b><a href="https://www.reddit.com/r/learnpython/comments/7sigre/my_new_book_cracking_codes_with_python_is_now/" target="new">Reddit AMA</a></b>.</p>
+<p><b><a href="/nsm" target="new">The Practice of Network Security Monitoring</a></b> was inducted into Palo Alto Networks <b><a href="https://cybercanon.paloaltonetworks.com/" target="new">Cybersecurity Canon</a></b>.</p>
+<p>Read Andrew “bunnie” Huang’s <b><a href="https://www.reddit.com/r/netsec/comments/5xli3d/hi_im_bunnie_author_of_the_the_hardware_hacker/" target="new">Reddit AMA</a></b>.</p>
+<p><b><a href="http://www.vox.com/videos/2017/2/6/14445516/minecraft-art-business-maps" target="new">Vox</a></b> interviewed the author of <b><a href="/beautifulminecraft" target="new">Beautiful Minecraft</a></b> and discovered how the game became an artistic medium.</p>
+<p>“A look inside a mind without peer.” <b>Edward Snowden</b> on <b><a href="/hardwarehacker" target="new">The Hardware Hacker</a></b>.</p>
+<p><b><a href="/facebookforseniors" target="new">Facebook for Seniors</a></b> is one of the <b><a href="http://www.wsj.com/articles/the-best-geeky-books-to-kick-off-the-new-year-1483637008" target="new">Wall Street Journal’s</a></b> recommended geeky books to kick off the new year!</p>
+<p>Natalie Rusk, creator of the <a href="/scratchcards" target="new"><b>Scratch Coding Cards</b></a>, shares tips for supporting creative coding on the <b><a href="https://www.iste.org/explore/articleDetail?articleid=864&amp;category=In-the-classroom&amp;article=5+ways+to+support+creative+coding" target="new">ISTE blog</a></b></p>
+<p>Merry Brickmas! <a href="/legochristmas" target="new"><b>The LEGO Christmas Ornaments Book</b></a> is featured in <b><a href="/download/LEGOChristmasOrnaments_FamilyCircle.pdf" target="new">Family Circle Magazine</a></b> and <b><a href="http://www.chicagotribune.com/lifestyles/holiday/giftguide/sc-gift-guide-childrens-books-2016--gallery-20161108-photogallery.html" target="new">The Chicago Tribune</a></b>!</p>
+<p>Dave Taylor, author of <b><a href="/wcss2" target="new">Wicked Cool Shell Scripts</a></b>, shares how to make an interactive calculator on <b><a href="https://opensource.com/article/16/12/calcshell-interactive-linux-command-line-calculator" target="new">Opensource.com</a></b></p>
+<p>Bring your LEGO collection to life: <a href="/legoanimation" target="new"><b>The LEGO Animation Book</b></a> is included in <a href="https://www.theverge.com/a/holiday-gift-ideas-2016#lego-animation-book" target="new"><b>The Verge’s Holiday Gift Guide</b></a>.</p>
+<p>Need a few geeky summer reads? <b><a href="http://www.wsj.com/articles/three-books-every-geek-should-read-this-summer-1466715350" target="new">The Wall Street Journal</a></b> recommends <b><a href="/electronicsforkids" target="new">Electronics for Kids</a></b> and <b><a href="/searchtale" target="new">The CS Detective</a></b>!</p>
+<p>The author of <b><a href="/tinylegowonders" target="new">Tiny LEGO Wonders</a></b>, Mattia Zamboni, was interviewed by Vice’s <b><a href="https://thecreatorsproject.vice.com/blog/diy-lego-engineering-book" target="new">The Creators Project</a></b>.</p>
+<p><b><a href="http://www.slj.com/2016/05/collection-development/read-watch-alikes/coding-lets-begin/#_" target="new">School Library Journal</a></b> recommends <b><a href="/scratchjr" target="new">The Official ScratchJr Book</a></b>, <b><a href="/teachkids" target="new">Teach Your Kids to Code</a></b>, and <b><a href="/doingmathwithpython" target="new">Doing Math with Python</a></b> for educators who want to teach coding.</p>
+<p><b><a href="/carhacking" target="new">The Car Hacker’s Handbook</a></b> is the <b><a href="http://www.wsj.com/articles/3-must-read-books-for-geeks-1458057671?tesla=y" target="new">Wall Street Journal’s</a></b> latest must-read book for geeks!</p>
+<p>No Starch Press founder, Bill Pollock, did a Reddit AMA with authors <a href="/metasploit" target="new">David Kennedy</a>, <a href="/hacking2.htm target=new">Jon Erickson</a>, <a href="/malware" target="new">Michael Sikorski</a>, and <a href="/idapro2.htm" target="new">Chris Eagle</a>. Read the AMA <b><a href="https://www.reddit.com/r/netsec/comments/3waa8x/im_bill_pollock_no_starch_press_founder_im_here/" target="new">here</a></b>.</p>
+<p>Why publish books about Scratch? The Scratch Foundation and Bill Pollock answer in this <a href="https://medium.com/scratchfoundation-blog/why-publish-books-about-scratch-7ea0b72cd9af" target="new"><b>Medium post</b></a>.</p>
+<p>Be the Corbusier of LEGO: <a href="/legoarchitect" target="new"><b>The LEGO Architect</b></a> is included in <a href="http://graphics.wsj.com/off-duty-50/a-guide-to-fall-2015/1278/be-the-corbusier-of-lego" target="new"><b>The Wall Street Journal’s guide to Fall’s Best</b></a>.</p>
+<p><a href="/smartgirlsguide" target="new"><b>The Smart Girl’s Guide to Privacy</b></a> hits the cover of <a href="https://twitter.com/violetblue/status/652989002677534720/photo/1" target="new"><b>BUST Magazine</b></a>!</p>
+<p>No Starch Press fans found <b><a href="https://twitter.com/billpollock/status/616127920042479616" target="new">our sticker</a></b> and <b><a href="https://twitter.com/aCaltum/status/596735294818385920" target="new">Hacking: The Art of Exploitation</a></b> in recent episodes of HBO’s Silicon Valley!</p>
+</section>
+<section id="block-block-7" class="block block-block clearfix">
+<h2 class="block-title">Follow Us</h2>
+<p><a href="feeds/newbooks.xml"><img src="/misc/feed.png" alt="RSS Feed" border="0" style="padding-bottom:8px; padding-right:8px;" align="left" />New Releases</a></p>
+<p><a href="feeds/comingsoon.xml"><img src="/misc/feed.png" alt="RSS Feed" border="0" style="padding-bottom:8px; padding-right:8px;" align="left" />Coming Soon</a></p>
+<p><a href="/mailchimp/subscribe"><img src="/sites/default/files/email-16.png" alt="Newsletter" border="0" style="padding-bottom:8px;padding-right:8px;" align="left" />Subscribe to our Newsletter</a></p>
+<p><a href="https://www.twitter.com/nostarch"><img src="/sites/default/files/twitter-16x16.png" alt="Twitter" border="0" style="padding-bottom:8px;padding-right:8px;" align="left" />Twitter</a></p>
+<p><a href="https://www.facebook.com/home.php?#/pages/No-Starch-Press/57041709833"><img src="/sites/default/files/facebook_small.png" alt="Facebook" border="0" style="padding-bottom:8px;padding-right:8px;" align="left" />Facebook</a></p>
+</section>
+</div>
+</aside> 
+</div>
+</div>
+<footer class="footer container">
+<div class="region region-footer">
+<section id="block-block-16" class="block block-block clearfix">
+<div id="footer-links">
+<br>
+<a class="footer-links" href="/about.htm">About Us</a>
+&nbsp;<span class="footer-divider">|</span>&nbsp;
+<a class="footer-links" href="/Jobs.htm"><b>★ Jobs! ★</b></a>
+&nbsp;<span class="footer-divider">|</span>&nbsp;
+<a class="footer-links" href="/distribution.htm">Sales and Distribution</a>
+&nbsp;<span class="footer-divider">|</span>&nbsp;
+<a class="footer-links" href="/rights">Rights</a>
+&nbsp;<span class="footer-divider">|</span>&nbsp;
+<a class="footer-links" href="/media.htm">Media</a>
+&nbsp;<span class="footer-divider">|</span>&nbsp;
+<a class="footer-links" href="/academic.htm">Academic Requests</a>
+&nbsp;<span class="footer-divider">|</span>&nbsp;
+<a class="footer-links" href="/conferences.htm">Conferences</a>
+&nbsp;<span class="footer-divider">|</span>&nbsp;
+<a class="footer-links" href="/orderfaq.htm">Order FAQ</a>
+&nbsp;<span class="footer-divider">|</span>&nbsp;
+<a class="footer-links" href="/contactus.htm">Contact Us</a>
+&nbsp;<span class="footer-divider">|</span>&nbsp;
+<a class="footer-links" href="/writeforus">Write for Us</a>
+&nbsp;<span class="footer-divider">|</span>&nbsp;
+<a class="footer-links" href="/privacypolicy.htm">Privacy</a>
+</div>
+</section>
+<section id="block-block-51" class="block block-block clearfix">
+<p>Copyright 2018 No Starch Press, Inc</p>
+</section>
+</div>
+</footer>
+<script src="https://nostarch.com/sites/default/files/js/js_MLVgtzZ1ORq9krYqkeOsRay6ou_T-0QZytivuM9tTT8.js"></script>
+<script src="https://nostarch.com/sites/default/files/js/js_FbpwIZNwgzwEuuL4Q2HOM07BOSCY5LxL_gwSK4ohQBM.js"></script>
+</body>
+</html>
