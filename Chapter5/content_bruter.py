@@ -1,8 +1,10 @@
 import urllib2, threading, Queue, urllib
 
 threads= 5
-target_url = "http://testphp.vulnweb.com"
-wordlist_file = "/tmp/all.txt" #SVNDigger
+target_url = "http://josephus.hsutx.edu"
+# target_url = "http://testphp.vulnweb.co"
+wordlist_file = "C:\Users\\asdf\PycharmProjects\BlackHat\Chapter5\\all.txt"
+# wordlist_file = "/tmp/all.txt" #SVNDigger
 resume = None
 user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:19.0) Gecko/20100101 Firefox/19.0"
 
