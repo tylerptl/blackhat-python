@@ -5,7 +5,8 @@ from javax.swing import JmenuItem
 from java.util import List, ArrayList
 from java.net import URL
 
-import socketimport urllib
+import socket
+import urllib
 import json
 import re
 import base64
